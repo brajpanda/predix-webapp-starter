@@ -187,7 +187,7 @@ app.get('/favicon.ico', function (req, res) {
 });
 
 app.get('/config', function(req, res) {
-  let title = "Predix WebApp Starter";
+  let title = "Predictive Maintenance Demo App";
   if (config.isAssetConfigured()) {
     title = "RMD Reference App";
   }
